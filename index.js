@@ -35,6 +35,7 @@ function copyOne() {
     window.getSelection().removeAllRanges();
 }
 function copyTwo() {
+    alert("Copy to clipboard")
     var r = document.createRange();
     r.selectNode(passTwo);
     window.getSelection().removeAllRanges();
