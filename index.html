@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="./style.css">
     <title>Password-Generator</title>
 </head>
@@ -15,12 +16,13 @@
             <h1>Generate a</h1>
             <h1 class="diff-txt"> random password</h1>
             <p>Never use an insecure password again.</p>
-            <button id="btn">Generate Passwords</button>
+            <button id="btn" onclick="generatePassword()">Generate Passwords</button>
             <hr>
             <div class="password">
-                <div id="password-one"></div>
-                <div id="password-two"></div>
+                <div id="password-one" onclick="copyOne()"></div>
+                <div id="password-two" onclick="copyTwo()"></div>
             </div>
+
 
         </div>
     </div>
